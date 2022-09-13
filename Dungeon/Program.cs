@@ -117,7 +117,6 @@ namespace Dungeon
                                 
                                 exit = true;
                                 break;
-
                             default:
                                 Console.WriteLine("Please try again...");
                                 break;
@@ -126,16 +125,17 @@ namespace Dungeon
                     } while (!exit && !reload);
 
                 }
+
                 else if (score >= 3)
                 {
-                    do
-                    {
-                        Console.WriteLine("You have defeated " + score + " pokemon" + (score == 1 ? "." : "s."));
-                        Console.WriteLine("You glance ahead as you push through the tall grass. You finally see the exit. \n You successfully found your way out of Viridian forest.\n Beyond the exit lies Pewter City, the next step in your Pokemon Journey.");
-                        Console.WriteLine("\n\nThanks for playing! Press any key to exit...");
-                        Console.ReadKey();
-                    }while (!exit);
+                   
+                    Console.WriteLine("You have defeated " + score + " pokemon" + (score == 1 ? "." : "s."));
+                    Console.WriteLine("You glance ahead as you push through the tall grass. You finally see the exit. \n You successfully found your way out of Viridian forest.\n Beyond the exit lies Pewter City, the next step in your Pokemon Journey.");
+                    Console.WriteLine("\n\nThanks for playing! Press any key to exit...");
+                    Console.ReadKey();
+                    exit = true;
                 }
+
             } while (!exit);
         
             
