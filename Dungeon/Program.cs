@@ -10,6 +10,30 @@ namespace Dungeon
         {
             Console.WriteLine("Viridian Forest!\n" +
                 "The deep and sprawling forest is said to be a natural maze as many people get lost inside. \n The trees in the forest are so thick that little light gets in.");
+            
+            string text = @"
+                ______     _                                            
+                | ___ \   | |                                           
+                | |_/ /__ | | _____ _ __ ___   ___  _ __                
+                |  __/ _ \| |/ / _ \ '_ ` _ \ / _ \| '_ \               
+                | | | (_) |   <  __/ | | | | | (_) | | | |              
+                \_|  \___/|_|\_\___|_| |_| |_|\___/|_| |_|              
+                                                        
+                                                        
+                 _____                       _         ___              
+                /  __ \                     | |       / _ \             
+                | /  \/ ___  _ __  ___  ___ | | ___  / /_\ \_ __  _ __  
+                | |    / _ \| '_ \/ __|/ _ \| |/ _ \ |  _  | '_ \| '_ \ 
+                | \__/\ (_) | | | \__ \ (_) | |  __/ | | | | |_) | |_) |
+                 \____/\___/|_| |_|___/\___/|_|\___| \_| |_/ .__/| .__/ 
+                                                           | |   | |    
+                                                           |_|   |_|  
+  
+";
+            Console.WriteLine(text);
+
+
+
 
             int score = 0;
 
